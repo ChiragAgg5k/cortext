@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsr generate && vite",
-    "build": "tsr generate && npm run setup:appwrite && tsc -b && vite build",
+    "build": "tsr generate && tsc -b && vite build",
     "typecheck": "tsr generate && tsc -b --noEmit",
     "lint": "tsr generate && eslint .",
     "preview": "tsr generate && vite preview",
